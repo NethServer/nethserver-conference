@@ -32,3 +32,11 @@ my $event = "nethserver-conference-update";
 event_actions($event,
                      'initialize-default-databases' => '00'
 );
+
+#--------------------------------------------------
+# actions for nethserver-conference-update event
+#--------------------------------------------------
+
+my $event = "nethserver-conference-save";
+
+event_actions($event,'');

@@ -25,5 +25,6 @@ rm -f %{name}-%{version}-%{release}-filelist
 %files -f %{name}-%{version}-%{release}-filelist
 %defattr(-,root,root)
 %dir %{_nseventsdir}/%{name}-update
+%dir %{_nseventsdir}/%{name}-save
 
 %changelog
