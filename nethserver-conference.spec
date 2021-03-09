@@ -14,6 +14,7 @@ Nethserver conference's configurations
 %setup
 
 %build
+perl createlinks
 
 %install
 rm -rf %{buildroot}
@@ -23,5 +24,6 @@ rm -f %{name}-%{version}-%{release}-filelist
 
 %files -f %{name}-%{version}-%{release}-filelist
 %defattr(-,root,root)
+%dir %{_nseventsdir}/%{name}-update
 
 %changelog
