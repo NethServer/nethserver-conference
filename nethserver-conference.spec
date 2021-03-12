@@ -1,6 +1,6 @@
 Summary: Nethserver conference's configurations
 Name: nethserver-conference
-Version: 0.0.0
+Version: 0.1.0
 Release: 1%{?dist}
 License: GPL
 URL: %{url_prefix}/%{name}
@@ -28,3 +28,6 @@ rm -f %{name}-%{version}-%{release}-filelist
 %dir %{_nseventsdir}/%{name}-save
 
 %changelog
+* Fri Mar 12 2021 Matteo Valentini <matteo.valentini@nethesis.it> - 0.1.0-1
+- Add new package nethserver-conference - NethServer/dev#6451
+
